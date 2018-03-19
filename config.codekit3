@@ -9,11 +9,18 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/gitignore": {
+	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/gitignore",
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/cottle.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cottle.ico",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -32,6 +39,61 @@
 		"oAP": "\/stylesheets\/css\/core-min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Bold.woff",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Bold.woff2",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Medium.woff",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Medium.woff2",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Regular.woff",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/fonts\/AvenirNext-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Regular.woff2",
+		"oF": 0
+		},
+	"\/stylesheets\/sass\/components\/_fontfaces.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheets\/sass\/components\/_fontfaces.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/stylesheets\/sass\/components\/_reset.scss": {
 		"aP": 0,
@@ -66,7 +128,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 541431130,
-	"displayValue": "bp-basic_html-css-sass",
+	"displayValue": "replicationWebsite",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr"
 	},
