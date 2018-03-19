@@ -1,0 +1,58 @@
+//NavBar SASS PARTIALS
+
+//Placeholders
+
+%navBarUl{
+  ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    li{
+      font-size: .85em;
+      letter-spacing: .1em;
+      color: #595959;
+      margin: 0 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#navBar{
+  height: 66px;
+  width: 100vW;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-sizing: border-box;
+
+  #navBarLeft{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+    #navBarLogo{
+      height: 100%;
+      width: auto;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+    }
+    @extend %navBarUl;
+
+    li: first-child {
+      margin: 0 15px 0 30px;
+    }
+  }
+
+  #navBarRight{
+    height: 100%;
+    width: auto;
+    display: flex;
+    @extend %navBarUl;
+  }
+} //navbar
