@@ -1,0 +1,169 @@
+//NavBar SASS PARTIALS
+
+
+//VARIABLES
+$navBarHeight: 66px;
+$navBarBorderStyle: 1px solid #E5E5E5;
+
+//HIGH LEVEL ELEMENT
+hr{
+  width: 100%;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: none;
+}
+
+//Placeholders
+
+%navBarUl{
+  ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+
+    li{
+      font-size: .88em;
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      letter-spacing: .1em;
+      color: #595959;
+      padding-bottom: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &:hover{
+        color: #1BA3DE;
+      }
+
+    }
+  }
+}
+
+#navBar{
+  height: $navBarHeight;
+  width: 100vW;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-bottom: $navBarBorderStyle;
+
+  #navBarLeft{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+    #navBarLogo{
+      height: 100%;
+      width: auto;
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+      cursor: pointer;
+
+    }
+    @extend %navBarUl;
+
+    ul{
+     li{
+      margin: 0 15px;
+      ul{
+        //THis li affects dropdown items
+        li{
+          width: 100%;
+          margin: 10px 0px;
+          padding-left: 50px;
+          text-transform: capitalize;
+          letter-spacing: -.025em;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+    li{
+      &:hover{
+        .navBarDD{
+          display: block;
+        }
+      }
+    }
+  }
+
+  #navBarRight{
+    height: 100%;
+    width: auto;
+    display: flex;
+
+    @extend %navBarUl;
+
+    ul{
+      li{
+        margin: 0 15px;
+      }
+    }
+
+    li:first-child{
+      color: #1BA3DE;
+    }
+
+    li:nth-child(2){
+      margin-right: 0px;
+    }
+
+    li:nth-child(3){
+      &:hover{
+        fill: #1BA3DE;
+      }
+    }
+
+    li:last-child{
+      margin: 0px 0px 0px 5px;
+    }
+  }
+} //navbar
+
+//***********DROP DOWN CODE
+.navBarDD{
+  height: auto;
+  width: auto;
+  padding: 20px 0px;
+  display: none;
+  background-color: #FFF;
+  position: absolute;
+  top: $navBarHeight - 1px;
+  border-left: $navBarBorderStyle;
+  border-bottom: $navBarBorderStyle;
+  border-right: $navBarBorderStyle;
+
+
+  &:hover{
+    cursor: default;
+  }
+
+    ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    li{
+      margin: 0px;
+      width: 100%;
+      height: auto;
+
+
+    }
+  }
+}
+
+#hero{
+  height: 100vw;
+  height: 550px;
+  background-color: #CCC;
+}
