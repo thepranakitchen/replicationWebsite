@@ -1,0 +1,18 @@
+//JUMBOTRON SASS CODE
+
+//IDS
+#jumboTron{
+  width: 100vw;
+  height: 680px;
+  background: url('imgs/jumboBackground.webp');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+#jumboTronContent{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

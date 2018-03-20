@@ -82,6 +82,13 @@
 		"oAP": "\/stylesheets\/css\/fonts\/AvenirNext-Regular.woff2",
 		"oF": 0
 		},
+	"\/stylesheets\/css\/imgs\/jumboBackground.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/jumboBackground.webp",
+		"oF": 0
+		},
 	"\/stylesheets\/sass\/components\/_fontfaces.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,6 +98,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/stylesheets\/sass\/components\/_fontfaces.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stylesheets\/sass\/components\/_jumbotron.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheets\/sass\/components\/_jumbotron.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -119,6 +139,19 @@
 		"oAP": "\/stylesheets\/css\/reset.css",
 		"oF": 2,
 		"oS": 3,
+		"uL": 1
+		},
+	"\/stylesheets\/sass\/components\/_typestyles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheets\/sass\/components\/_typestyles.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/stylesheets\/sass\/core.scss": {
