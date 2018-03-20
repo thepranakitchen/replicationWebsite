@@ -86,13 +86,12 @@ hr{
     }
   }
 
-    li:first-child {
+    li{
       &:hover{
         .navBarDD{
           display: block;
         }
       }
-
     }
   }
 
