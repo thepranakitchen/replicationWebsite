@@ -10,11 +10,18 @@
 
 
     li{
-      font-size: .85em;
+      font-size: .88em;
       letter-spacing: .1em;
       color: #595959;
-      margin: 0 20px;
+      margin: 0 15px;
+      padding-bottom: 1px;
       text-transform: uppercase;
+      cursor: pointer;
+
+      &:hover{
+        color: #1BA3DE;
+      }
+
     }
   }
 }
@@ -44,7 +51,7 @@
     }
     @extend %navBarUl;
 
-    li: first-child {
+    li:first-child {
       margin: 0 15px 0 30px;
     }
   }
@@ -53,6 +60,25 @@
     height: 100%;
     width: auto;
     display: flex;
+
     @extend %navBarUl;
+
+    li:first-child{
+      color: #1BA3DE;
+    }
+
+    li:nth-child(2){
+      margin-right: 0px;
+    }
+
+    li:nth-child(3){
+      &:hover{
+        fill: #1BA3DE;
+      }
+    }
+
+    li:last-child{
+      margin: 0px 0px 0px 5px;
+    }
   }
 } //navbar
